@@ -1,11 +1,8 @@
 import random
 result = random.randint(1,100)
 
-print ("Enter the amount to bet:")
-amount = int(input())
-
-print ("Select the multiplier of winning:")
-chance = int(input())
+amount = int(input("Enter the amount to bet:"))
+chance = int(input("Select the multiplier of winning:"))
 
 if chance == 1:
     win = 100
