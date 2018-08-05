@@ -18,8 +18,8 @@ else:
 
 prize = amount * chance
 
-print ("Your base amount is $" + str(amount) + " and If you win, you will get $" + str(prize) + ".")
-print ("You will only win if your number is less than or equals to " + str(win) + ".")
+print ("Your base amount is $" + str(amount) + " and If you win, you will get $ {}.".format(prize))
+print ("You will only win if your number is less than or equals to {}.".format(win))
 
 
 if result <= win:
