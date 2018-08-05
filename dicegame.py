@@ -1,10 +1,10 @@
 import random
 result = random.randint(1,100)
 
-print ("Set the amount to bet:")
+print ("Enter the amount to bet:")
 amount = int(input())
 
-print ("Okay, now select the multiplier of winning.")
+print ("Select the multiplier of winning:")
 chance = int(input())
 
 if chance == 1:
